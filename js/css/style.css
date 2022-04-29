@@ -1,8 +1,40 @@
-button {
-    width: 150px;
-    height: 40px;
-    background: rgb(158, 82, 229);
-    border: solid 1px black;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px rgba(158, 82, 229 );
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+
+} 
+.item {
+    border: solid 2px black;
+}
+.item_1 {
+    background: #fff;
+}
+.item_2 {
+    background: rgb(235, 234, 234);
+}
+.item_3 {
+    background: rgb(176, 176, 176);
+}
+.item_4 {
+    background: rgb(154, 154, 154);
+}
+.item_5 {
+    background: rgb(122, 122, 122);
+}
+.item_6 {
+    background: rgb(110, 110, 110);
+}
+.item_7 {
+    background: rgb(96, 96, 96);
+}
+.item_8 {
+    background: rgb(79, 79, 79);
+}
+.item_9 {
+    background: rgb(63, 63, 63);
+}
+.item_10 {
+    background: rgb(46, 46, 46);
 }
